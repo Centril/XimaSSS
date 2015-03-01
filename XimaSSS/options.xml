@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Warning: Do not edit in this file unless you know what you're doing
+	 Editing this file might cause the program to corrupt and crash -->
+<options>
+	<path>d:/Programming/DEV/XimaSSS/Images</path>
+	<format>%date%-%interval(1,100)%</format>
+	<image unit="pixels" resize="0" quality="100" resolution="72" filetype="Joint Photographic Experts Group | JPEG">
+		<width>1280</width>
+		<height>1024</height>
+	</image>
+	<date enable="1" xpos="50" ypos="50">
+		<textformat>%dd%/%MM%-%yyyy% %hh%:%mm%</textformat>
+		<opacity>100</opacity>
+		<font size="12" style="4" color="0|0|0">Verdana</font>
+	</date>
+	<ftp enable="0" autosend="0">
+		<server username="" password="VG5FNWJVNDNmaTVUSndBfkJ+Qw" port="21">ftp.yourdomain.com</server>
+		<path>/Screenshots/</path>
+	</ftp>
+	<specialprograms />
+</options>

@@ -1,0 +1,49 @@
+Coding style:
+class [XPrefix_]NameOfClass[_XSufix] [: inheritance operands]
+{
+private:
+	int m_id;
+protected:
+	bool m_goodobj;
+public:
+	string m_name;
+
+	NameOfClass(void);
+	~NameOfClass(void);
+	void shakeHands(bool rightside);
+};
+...
+NameOfClass::NameOfClass(void)
+{
+	int a(40), b(4*10);
+	if(a >= b)
+	{
+		this->shakeHands(true);
+	}
+	else
+	{
+		this->shakeHands(false);
+	}
+}
+
+Namespaces must have their own folder.
+
+Own header files must use the extension xclass.class.hpp, and C++ files: xclass.class.cpp
+Unless the class has no definition and just declaration a C++ file must be used and the header file is not allowed to define anything except declarations.
+
+Precompiler Macron:
+[#ifndef _XHEADER_HPP //Inclution guard] Is defined if the file is a header file
+#ifdef Operating System (WIN32 / UNIX...)
+
+[#include <C++ STD libraries>]
+
+[#include <OS libraries>]
+
+[#include <Own Libraries>]
+
+[#include <Own definitions>]
+
+[Code]
+
+#endif
+[#endif]

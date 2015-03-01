@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "CxImage\cximage.vcproj", "{8E102766-82A7-4149-AA56-C02297BC88AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "j2k", "j2k\j2k.vcproj", "{C84B304C-4863-4814-A399-74EB37E22CFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jasper", "jasper\jasper.vcproj", "{A0A98692-76C5-45E2-84A0-ABB27789C626}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jbig", "jbig\jbig.vcproj", "{EC909187-ED92-4133-A1EE-702629A65BEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpeg", "jpeg\Jpeg.vcproj", "{783EE644-6E6B-4CEE-8434-E3D8607E91CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "png\png.vcproj", "{0487FE68-0379-421B-829E-ED0C1F56EA29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiff", "tiff\Tiff.vcproj", "{22B46B22-D361-4980-8D35-D2285D8BF8D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcproj", "{871811BA-D88A-4454-9455-B2114ECA4AD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E102766-82A7-4149-AA56-C02297BC88AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E102766-82A7-4149-AA56-C02297BC88AB}.Debug|Win32.Build.0 = Debug|Win32
+		{8E102766-82A7-4149-AA56-C02297BC88AB}.Release|Win32.ActiveCfg = Release|Win32
+		{8E102766-82A7-4149-AA56-C02297BC88AB}.Release|Win32.Build.0 = Release|Win32
+		{C84B304C-4863-4814-A399-74EB37E22CFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C84B304C-4863-4814-A399-74EB37E22CFC}.Debug|Win32.Build.0 = Debug|Win32
+		{C84B304C-4863-4814-A399-74EB37E22CFC}.Release|Win32.ActiveCfg = Release|Win32
+		{C84B304C-4863-4814-A399-74EB37E22CFC}.Release|Win32.Build.0 = Release|Win32
+		{A0A98692-76C5-45E2-84A0-ABB27789C626}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0A98692-76C5-45E2-84A0-ABB27789C626}.Debug|Win32.Build.0 = Debug|Win32
+		{A0A98692-76C5-45E2-84A0-ABB27789C626}.Release|Win32.ActiveCfg = Release|Win32
+		{A0A98692-76C5-45E2-84A0-ABB27789C626}.Release|Win32.Build.0 = Release|Win32
+		{EC909187-ED92-4133-A1EE-702629A65BEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC909187-ED92-4133-A1EE-702629A65BEE}.Debug|Win32.Build.0 = Debug|Win32
+		{EC909187-ED92-4133-A1EE-702629A65BEE}.Release|Win32.ActiveCfg = Release|Win32
+		{EC909187-ED92-4133-A1EE-702629A65BEE}.Release|Win32.Build.0 = Release|Win32
+		{783EE644-6E6B-4CEE-8434-E3D8607E91CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{783EE644-6E6B-4CEE-8434-E3D8607E91CA}.Debug|Win32.Build.0 = Debug|Win32
+		{783EE644-6E6B-4CEE-8434-E3D8607E91CA}.Release|Win32.ActiveCfg = Release|Win32
+		{783EE644-6E6B-4CEE-8434-E3D8607E91CA}.Release|Win32.Build.0 = Release|Win32
+		{0487FE68-0379-421B-829E-ED0C1F56EA29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0487FE68-0379-421B-829E-ED0C1F56EA29}.Debug|Win32.Build.0 = Debug|Win32
+		{0487FE68-0379-421B-829E-ED0C1F56EA29}.Release|Win32.ActiveCfg = Release|Win32
+		{0487FE68-0379-421B-829E-ED0C1F56EA29}.Release|Win32.Build.0 = Release|Win32
+		{22B46B22-D361-4980-8D35-D2285D8BF8D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22B46B22-D361-4980-8D35-D2285D8BF8D5}.Debug|Win32.Build.0 = Debug|Win32
+		{22B46B22-D361-4980-8D35-D2285D8BF8D5}.Release|Win32.ActiveCfg = Release|Win32
+		{22B46B22-D361-4980-8D35-D2285D8BF8D5}.Release|Win32.Build.0 = Release|Win32
+		{871811BA-D88A-4454-9455-B2114ECA4AD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{871811BA-D88A-4454-9455-B2114ECA4AD8}.Debug|Win32.Build.0 = Debug|Win32
+		{871811BA-D88A-4454-9455-B2114ECA4AD8}.Release|Win32.ActiveCfg = Release|Win32
+		{871811BA-D88A-4454-9455-B2114ECA4AD8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

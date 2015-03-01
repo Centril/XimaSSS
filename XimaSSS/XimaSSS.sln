@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XimaSSS", "XimaSSS Re.vcproj", "{24EE16D0-1DFE-4968-86ED-C3E27A251765}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D} = {36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F} = {C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XCaptureHelper", "..\XCaptureHelper\XCaptureHelper.vcproj", "{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxmlSTL", "XML\tinyxml\tinyxmlSTL.vcproj", "{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Optimized|Win32 = Debug Optimized|Win32
+		Debug|Win32 = Debug|Win32
+		Release Optimized|Win32 = Release Optimized|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Debug Optimized|Win32.ActiveCfg = Debug Optimized|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Debug Optimized|Win32.Build.0 = Debug Optimized|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Debug|Win32.Build.0 = Debug|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Release Optimized|Win32.ActiveCfg = Debug|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Release Optimized|Win32.Build.0 = Debug|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Release|Win32.ActiveCfg = Release|Win32
+		{24EE16D0-1DFE-4968-86ED-C3E27A251765}.Release|Win32.Build.0 = Release|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Debug Optimized|Win32.ActiveCfg = Debug|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Debug Optimized|Win32.Build.0 = Debug|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Debug|Win32.Build.0 = Debug|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Release Optimized|Win32.ActiveCfg = Release|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Release Optimized|Win32.Build.0 = Release|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Release|Win32.ActiveCfg = Release|Win32
+		{C1A3D7F1-384E-4D31-AFF4-9DB36250EC7F}.Release|Win32.Build.0 = Release|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Debug Optimized|Win32.ActiveCfg = Debug|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Debug Optimized|Win32.Build.0 = Debug|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Debug|Win32.Build.0 = Debug|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Release Optimized|Win32.ActiveCfg = Release|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Release Optimized|Win32.Build.0 = Release|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Release|Win32.ActiveCfg = Release|Win32
+		{36DC65D9-A56B-4FBB-9EBB-69899EBBD65D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
